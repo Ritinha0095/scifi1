@@ -744,11 +744,11 @@ li {
     padding-bottom: 20px;
 }
 .feature-section {
-    padding-top: 100px;
+    padding-top: 80px;
 }
 
 .feature, .feature-2, .feature-3 {
-    padding-bottom: 80px;
+    padding-bottom: 60px;
 }
 
 .feature, .feature-3 {
@@ -1164,7 +1164,7 @@ and (min-width : 551px){
 
 
 .latest-news-section {
-    padding-top: 80px;
+    padding-top: 20px;
     padding-bottom: 60px;
 }
 
@@ -1372,16 +1372,6 @@ and (min-width : 551px){
     background-attachment: fixed;
     background-repeat: no-repeat;
     padding-top: 80px;
-    padding-bottom: 100px;
-}
-
-.contact .btn-primary {
-    padding: 20px;
-    font-size: 16px;
-}
-
-.contact .btn-primary:hover {
-    background: transparent;
 }
 
 .contact .section-title h3{
@@ -1391,61 +1381,6 @@ and (min-width : 551px){
 .contact .section-heading {
     color: #fff;
 }
-
-.contact .form-group {
-    margin-bottom: 25px;
-}
-
-.contact .form-group input,
-.contact .form-group textarea {
-    padding: 20px;
-}
-
-.contact .form-group input.form-control {
-    height: auto;
-}
-
-.contact .form-group textarea.form-control {
-    height: 236px;
-}
-
-.contact::-webkit-input-placeholder {
-    text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-weight: 700;
-    color: #bbb;
-}
-
-.contact:-moz-placeholder {
-    text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-weight: 700;
-    color: #bbb;
-}
-
-.contact::-moz-placeholder {
-    text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-weight: 700;
-    color: #bbb;
-}
-
-.contact:-ms-input-placeholder {
-    text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-weight: 700;
-    color: #bbb;
-}
-
-.contact .text-danger {
-    color: #e74c3c;
-}
-
-.contact button {
-    font-weight: 400;
-    margin-top: 30px;
-}
-
 
 .footer-contact-info {
     color: #fff;
@@ -1497,7 +1432,6 @@ footer.style-1 .footer-social li a {
     -moz-border-radius: 2px;
     -o-border-radius: 2px;
     border-radius: 2px;
-    
 }
 
 footer.style-1 .footer-social li i {
@@ -1516,15 +1450,6 @@ footer.style-1 .footer-link li {
     padding-left: 10px;
     font-size: 13px;
 }
-
-
-.btn:focus,
-.btn:active,
-.btn.active,
-.btn:active:focus {
-    outline: 0;
-}
-
 /**** Start Modal Section ****/
 
 .section-modal .modal-content {
@@ -1539,8 +1464,6 @@ footer.style-1 .footer-link li {
     color: #888;
     font-weight: 300;
 }
-
-
 
 .section-modal .close-modal {
     position: absolute;
@@ -1577,16 +1500,9 @@ footer.style-1 .footer-link li {
     transform: rotate(90deg);
 }
 
-
-
-
-
-
-
 /*---------------------------------------------------------------*/
 /* Start Call To Action
 /*---------------------------------------------------------------*/
-
 
 .call-to-action {
     background: url(../images/parallax/call-to.jpg);
@@ -1596,6 +1512,19 @@ footer.style-1 .footer-link li {
     color: #fff;
     text-align: center;
     padding: 80px 0;
+}
+
+.call-to-action2 {
+    background: url(../images/parallax/call-to.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: 50% 90%;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    padding-top: 40px;
+    margin-bottom: 7%;
+    margin-top: 2%;
 }
 
 .call-to-action h1 {
@@ -1610,6 +1539,12 @@ footer.style-1 .footer-link li {
     
 }
 
+.call-to-action2 h3 {
+    color:rgba(255, 255, 255, 0.842);
+    padding-bottom: 40px;
+    font-size: 35px;
+}
+
 .call-to-action .btn-primary {
     padding: 20px;
     font-size: 16px;
@@ -1619,18 +1554,14 @@ footer.style-1 .footer-link li {
     background: transparent;
 }
 
-
 /*-----------------------------------------*/
 /* Start Team Section
 /*-----------------------------------------*/
-
 
 .team-member-section {
     padding-top: 80px;
     padding-bottom: 100px;
 }
-
-
 
 #team-section  .our-team {
     padding-top: 20px;
