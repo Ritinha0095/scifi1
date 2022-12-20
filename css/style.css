@@ -1242,7 +1242,6 @@ and (min-width : 551px){
 
 
 /*************** Testimonials ***************/
-
 .testimonial-section {
     background: Url(../images/parallax/testimonial-bg.jpg) no-repeat;
     background-attachment: fixed;
@@ -1282,19 +1281,11 @@ and (min-width : 551px){
 
 .testimonials .testimonial-author .author {
     font-family: "Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive;
-    font-size: 20px;
+    font-size: 18px;
     padding-bottom: 5px;
 }
 .testimonials .testimonial-author .designation {
     color: #d3d3d3;
-}
-.designation {
-    font-size: 19px;
-    font-weight: bolder;
-}
-.author {
-    font-size: 20px;
-    font-weight: bolder;
 }
 
 .touch-slider .owl-controls.clickable .owl-buttons div:hover {
@@ -1334,8 +1325,6 @@ and (min-width : 551px){
 .owl-theme .owl-controls .owl-page.active span {
     background: #fff;
 }
-
-
 
 /*--------------------------------------------------*/
 /* Start Clients Section                            */
