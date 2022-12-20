@@ -13,6 +13,7 @@
 	height: 0;
 }
 /* display none until init */
+
 .owl-carousel{
 	display: none;
 	position: relative;
@@ -53,10 +54,10 @@
 	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
-/* mouse grab icon */
+/* mouse grab icon 
 .grabbing { 
     cursor:url(grabbing.png) 8 8, move;
-}
+}*/
 
 /* fix */
 .owl-carousel  .owl-wrapper,
