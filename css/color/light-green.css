@@ -242,6 +242,11 @@ fieldset[disabled] .btn-xl.active {
 .testimonials .testimonial-content img {
     border: 3px solid #BCCF02;
 }
+
+.testimonials .testimonial-content ul img{
+    border:none;
+}
+
 .testimonials .testimonial-author .author {
     color: #BCCF02;
 }
