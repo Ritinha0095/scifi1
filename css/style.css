@@ -1254,22 +1254,22 @@ and (min-width : 551px){
 	position: relative;
 }
 
-.testimonials .testimonial-content img {
+/*.testimonials .testimonial-content img {
     width: 150px;
     height: auto;
     margin-bottom: 40px;
-}
+}*/
 
 
 
-.testimonials .testimonial-content p {
+/*.testimonials .testimonial-content p {
 	font-size: 20px;
 	line-height: 30px;
 	font-style: italic;
 	font-weight: 400;
     margin-bottom: 40px;
 	color: #fff;
-}
+}*/
 
 .testimonials .testimonial-content {
 	position: relative;
@@ -1287,6 +1287,32 @@ and (min-width : 551px){
 .testimonials .testimonial-author .designation {
     color: #d3d3d3;
 }
+
+.testimonial-content ul{
+    display:flex;
+    flex-direction: row;
+    justify-content: center; 
+}
+
+.testimonial-content ul img{
+    margin-right: 20px;
+    height:40px;
+    width:40px;
+    border: none;
+    /*filter: invert(100%);*/
+}   /*Estilo funcionando para a imagem, o outro é só caso a gente queira recuperar o antigo*/
+
+.testimonial-content ul img:hover{
+    opacity: 75%;
+    /*filter: invert(100%);*/
+} /*Ícones abaixo das fotos*/
+
+.testimonial-content p{
+    text-align:justify;
+    font-size: 19px;
+    width: 1000px;
+    margin-left:60px;
+} /*Parágrafo de descrição dos pesquisadores*/
 
 .touch-slider .owl-controls.clickable .owl-buttons div:hover {
 	background-color: #00afd1;
@@ -1324,6 +1350,26 @@ and (min-width : 551px){
 }
 .owl-theme .owl-controls .owl-page.active span {
     background: #fff;
+}
+
+/*--------------------------------------------------*/
+/* Start Clients Section                            */
+/*--------------------------------------------------*/
+
+
+#partner {
+    padding-top: 80px;
+    padding-bottom: 50px;
+    text-align: center !important;
+}
+
+.clients .owl-buttons {
+    padding-top: 50px;
+}
+
+.owl-theme .owl-controls .owl-buttons div {
+	opacity: 1;
+	filter: Alpha(Opacity=100);
 }
 
 /*--------------------------------------------------*/
