@@ -15,8 +15,7 @@ a.active {
 }
 
 .logo{
-   
-    background-image: url("/images/logovermelho.png");
+    background-image: url("./color/logovermelho.png");
     background-repeat: no-repeat;
     height: 60px;
     width: 60px;
