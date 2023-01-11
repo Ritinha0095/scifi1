@@ -9,7 +9,10 @@ $(window).load(function () {
 	$('#loader').fadeOut();
 });
 
-
+///MUDAR IMAGEM DA LOGO
+function mudarImagem(objeto,caminhoNovaImagem){
+    document.getElementById(objeto).src = caminhoNovaImagem; 
+}
 
     // jQuery for page scrolling feature - requires jQuery Easing plugin
 $(function () {

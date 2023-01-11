@@ -14,15 +14,6 @@ a.active {
     text-decoration: none;
 }
 
-.logo{
-   
-    background-image: url("/images/logovermelho.png");
-    background-repeat: no-repeat;
-    height: 60px;
-    width: 60px;
-    border: 2px solid red;
-}
-
 .btn-primary {
     border-color: #F20505;
     background-color: #F20505;

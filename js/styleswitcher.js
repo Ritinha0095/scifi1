@@ -16,12 +16,28 @@ jQuery(document).ready(function(){
 	
 });
 
+function mudarImagem(objeto,caminhoNovaImagem){
+  document.getElementById(objeto).src = caminhoNovaImagem; 
+}
+
 function setActiveStyleSheet(title) {
   var i, a, main;
   for(i=0; (a = document.getElementsByTagName("link")[i]); i++) {
     if(a.getAttribute("rel").indexOf("style") != -1 && a.getAttribute("title")) {
       a.disabled = true;
       if(a.getAttribute("title") == title) a.disabled = false;
+      
+      if(title == "light-red"){
+        mudarImagem('imagemLogo','/images/logovermelho.png');
+      }else if(title == "blue"){
+        mudarImagem('imagemLogo','/images/logoazul.png');
+      }else if(title == "green"){
+        mudarImagem('imagemLogo','/images/logoverde.png');
+      }else if(title == "light-green"){
+        mudarImagem('imagemLogo','/images/logoverdeclaro.png');
+      }else{
+        console.log("Imagem de logo dessa cor ainda não existe!");  
+      }
     }
   }
 }
